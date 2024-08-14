@@ -1,0 +1,11 @@
+def reverse_string(s):
+    """Function to reverse the given string."""
+    return s[::-1]
+
+def main():
+    user_string = input("Enter a string to reverse: ")
+    reversed_string = reverse_string(user_string)
+    print(f"The reversed string is: {reversed_string}")
+
+if __name__ == "__main__":
+    main()
